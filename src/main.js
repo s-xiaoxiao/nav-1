@@ -6,13 +6,11 @@ const hashMap = xObject || [
   { url: "https://www.bilibili.com" },
   { url: "https://www.acfun.cn" }
 ];
-console.log($("globalHeader>input"));
 
-$("globalSearch").on("click", e => {
-  console.log(aa);
-  window.open = null;
+$(".globalSearch").on("input", function(e) {
   e.stopPropagation();
 });
+
 const render = () => {
   $siteList.find("li:not(.last)").remove();
   hashMap.forEach((node, index) => {
