@@ -112,9 +112,9 @@ window.onbeforeunload = () => {
 };
 
 //提示用户使用热键
-$(document).on("keypress", e => {
-  let { key } = e;
-  if ((key >= "a" && key <= "z") || (key >= "A" && key <= "Z")) {
-    window.alert("仅支持数字0-9热键");
-  }
-});
+// $(document).on("keypress", e => {
+//   let { key } = e;
+//   if ((key >= "a" && key <= "z") || (key >= "A" && key <= "Z")) {
+//     window.alert("仅支持数字0-9热键");
+//   }
+// });

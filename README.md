@@ -1,10 +1,10 @@
-快捷方式导航：[查看](http://sunxiaochuang.top/nav-1/dist/index.html)
+自定义导航：[查看](http://sunxiaochuang.top/nav-1/dist/index.html)
 
 功能：
-1. 可以使用百度搜索
+1. 百度搜索引擎
 2. 可以添加10个快捷方式
 3. 支持0-9热键启动快捷方式
-4. 兼容 mobile 和 pc
+4. 响应式布局同时支持 mobile 和 pc
 
 
 
