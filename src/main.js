@@ -8,7 +8,9 @@ const hashMap = xObject || [
 ];
 console.log($("globalHeader>input"));
 
-$("globalSearch").on("input", () => {
+$("globalSearch").on("click", e => {
+  console.log(aa);
+  window.open = null;
   e.stopPropagation();
 });
 const render = () => {
