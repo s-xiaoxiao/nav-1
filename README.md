@@ -1,4 +1,4 @@
-快捷方式导航：[](http://sunxiaochuang.top/nav-1/dist/index.html)
+快捷方式导航：[查看](http://sunxiaochuang.top/nav-1/dist/index.html)
 
 功能：
 1. 可以使用百度搜索
@@ -10,15 +10,16 @@
 
 
 ## 针对开发人员
-```
-yarn global add parcel-bundler
-parcel --version
+```JavaScript
+yarn global add parcel-bundler  /*下载parcel*/  
+parcel --version                /*测试版本*/
 
-parcel src/index.html
+parcel src/index.html           /*打开服务器*/
 ```
+
 build命令
+```JavaScript
+yarn build                      /*一键生成生成dist里的文件*/
 ```
-yarn build
-```
-生成dist里的文件
+
 
